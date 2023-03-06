@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modelo de Formulário de Cadastro </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: darkcyan;
+            color: white;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            box-shadow: 0px 7px 7px rgba(0, 255, 255, 0.468);
+        }
+        fieldset{
+            border: 2px solid white;
+            border-radius: 10px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+        legend{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{ 
+            font-family: cursive;
+        }
+        label{ 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1> Ficha de Inscrição Florida Team BR</h1>
+    <fieldset> 
+        <legend> Sexo </legend>
+        <input type="radio" name="sxmas" id="isxmas"> <label for="isxmas"> Masculino</label>
+        <input type="radio" name="sxfem" id="isxfem"> <label for="isxfem"> Feminino</label>
+    </fieldset>
+    <fieldset> 
+        <legend> Dados Pessoais</legend>
+    <form action="cadastro.php" method="post" autocomplete="on">
+       <p> <label for="inome"> Nome: </label>  
+        <input type="text" name="nome" id="inome" placeholder="Digite seu Nome">
+        
+    </p>
+    <p> <label for="isobrenome"> Sobrenome: </label> 
+        <input type="text" name="sobrenome" id="isobrenome" placeholder="Digite seu Sobrenome">
+    </p>
+    
+    <p> 
+        <label for="iemail">Email: </label>
+        <input type="email" name="email" id="iemail" placeholder="xxxxxx@xxxxx.xxx.xx">
+    </p>
+    <p> <label for="idata"> Data de Nascimento:</label>
+        <input type="date" name="data" id="idata">
+    </p>
+    <p> <label for="iidade"> Idade: </label>
+        <input type="number" name="idade" id="iidade" placeholder=" xx anos">
+    </p>
+    <p> <label for="itelefone"> Telefone: </label>
+        <input type="tel" name="telefone" id="itelefone" placeholder="(xx) xxxxx-xxxx">
+    </p>
+    <p> <label for="iarquivo"> Importar Arquivo: </label>
+        <input type="file" name="arquivo" id="iarquivo"></p>
+    <p> 
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+   
+
+    </form>
+</fieldset>
+ <br>
+<fieldset> 
+    <legend> Tema Favorito do Canal</legend>
+    <input type="checkbox" name="Cook" id="icook"> <label for="icook"> Florida Cook </label>  <br>
+    <input type="checkbox" name="Soccer" id="isoccer"> <label for="isoccer"> Florida Soccer</label><br>
+    <input type="checkbox" name="Cine" id="icine" > <label for="icine">Florida Cine </label> <br>
+    <input type="checkbox" name="Games" id="igames" >  <label for="igames"> Florida Games</label> <br>
+    <p> 
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+   
+
+</fieldset>
+</body>
+</html>
