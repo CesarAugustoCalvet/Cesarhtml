@@ -3,5 +3,5 @@ body{
     background-image: linear-gradient( to right, white, blue, brown);
 }
 header > h1{ 
-    text-align: center;
+    text-align: center; color: white;
 }
