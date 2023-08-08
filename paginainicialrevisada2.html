@@ -8,22 +8,39 @@
     <title>Sorvetes Itaqua</title>
     <style>
         body {
-            background-image: linear-gradient(to right ,white, orange);
+            background-image: linear-gradient(to left ,white, orange);
         }
 
-        header > h1 {
-            text-align: center;
-            color: rgb(16, 15, 15);
-            font-family: cursive;
-            font-size: 2em;
-        }
-
-        nav > a {
+        
+        header > div >  nav > a {
             text-decoration: none;
-            color: black;
+            color: rgb(242, 237, 237);
             font-family: arial;
+            text-align: center;
+            background-color: darkslategray;
         }
-        nav > a:hover{
+        header > div  > p{
+            text-decoration: none;
+            color: rgb(242, 237, 237);
+            font-family: arial;
+            text-align: center;
+            background-color: darkslategray;
+            height: 100%;
+            width: 100%;
+            padding-bottom: 20px;
+                
+            
+
+        }
+        header > div > p > nav > a {
+            text-decoration: none;
+            color: rgb(242, 237, 237);
+            font-family: arial;
+            text-align: center;
+            
+            
+        } 
+         header > nav > a:hover{
             background-color: rgba(0, 255, 255, 0.468); color: white;
         }
 
@@ -64,16 +81,26 @@
 
 <body>
     <header>
-        <h1>
-            Sorvetes Itaqua
-        </h1>
+        <div>
+            
+            <p>   Sorvetes Itaqua
+                <nav>
+                    <a href="#"> Home </a> 
+                    <a href="#"> Contato</a>
+                    <a href="#"> Quem Somos </a>
+                    <a href="#"> Sabores</a>
+                </nav>
+               
+            </p>
+            
+         
+        </div>            
+                
+          
+        
+        
     </header>
-    <nav>
-        <a href="#"> Home </a>
-        <a href="#">Contato</a>
-        <a href="#"> Quem Somos </a>
-        <a href="#"> Sabores</a>
-    </nav>
+   
     <br>
     <main>
         <article>
@@ -149,7 +176,7 @@
 
         </article>
     </main>
-    <footer>
+       <footer>
         <p>
             Site Desenvolvido por Cesar Augusto e Alessandro Fidelis
         </p>
