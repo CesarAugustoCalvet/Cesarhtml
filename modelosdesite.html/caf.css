@@ -1,0 +1,59 @@
+@charset "UTF - 8 ";
+body{
+    background-image: linear-gradient( to right,  lightblue, hsl(31, 100%, 70%));
+
+}
+header > h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 1.5px 2px #000000 ;
+    font-size: 30px;
+    
+}
+nav > a {
+    text-decoration: dotted;
+    text-shadow: 1px 1px 2px #000000 ;
+    color: white;
+    font-size: 15px;
+}
+nav > a:hover{
+    background-color: hsl(31, 100%, 70%);
+}
+#tabela{
+    border: 4px solid rgba(0, 0, 0, 0.697);
+    border-radius: 30px;
+    font-family: cursive;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+caption {
+    text-align: center;
+    color: white;
+    text-decoration: dotted;
+    text-shadow: 1px 1px 2px #000000 ;
+    letter-spacing: 2px;
+    
+}
+caption:hover{
+    background-color: hsl(31, 100%, 70%);
+}
+tr > td{
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    text-decoration: dotted;
+    text-shadow: 1px 1px 2px #000000 ;
+    letter-spacing: 2px;
+}
+tr > td:hover{
+    background-color: hsl(31, 100%, 70%);
+}
+
+
+
+
