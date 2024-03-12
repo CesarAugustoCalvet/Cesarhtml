@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato Cesar Shop</title>
+    <style>
+        
+    </style>
 </head>
 <body>
     <h2> Contato Cesar Shop </h2>
@@ -11,5 +14,38 @@
         Email: x@gmail.com
     </p>
     <p> Para retornar a nossa página principal clique neste link => <a href="home.html"> Home</a></p>
+    <p> Para deixar alguma sugestão ou crítica faça o cadastro no nosso sistema. <br>
+      <fieldset>
+        <legend> <strong>Dados Pessoais</strong> </legend>
+        <form action="cadastro.php" method="post" autocomplete="on">
+           <p> <label  for="inome"> Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu nome"> </p> 
+            <p><label  for="isobrenome"> Sobrenome:</label> 
+                <input type="text" name="nome" id="isobrenome" placeholder="Digite seu sobrenome"> </p>  
+            <p><label  for="iemail"> Email:</label>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu Email"> </p> 
+                <p> <label for="idata"> Data de Nascimento:</label>
+                    <input type="date" name="data" id="idata">
+                </p>
+                <p> <label for="iidade"> Idade: </label>
+                    <input type="number" name="idade" id="iidade" placeholder=" xx anos">
+                </p>
+                <p> <label for="itelefone"> Telefone: </label>
+                    <input type="tel" name="telefone" id="itelefone" placeholder="(xx) xxxxx-xxxx">
+                </p>
+                <p> <label for="iarquivo"> Importar Arquivo: </label>
+                    <input type="file" name="arquivo" id="iarquivo"></p>
+                <p> 
+                    
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+
+        </form>
+      </fieldset>
+       
+
+    </p>
+    
 </body>
 </html>
