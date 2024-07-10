@@ -7,4 +7,4 @@
 num1 = int(input('digite o primeiro número: '))
 num2 = int(input('digite o segundo número: '))
 soma = num1 + num2
-print(' A soma de {} e {} é igual a {}'.format(num1,num2,soma))
+print(' A soma de {} e {} é igual a {}'.format(num1,num2,soma)) # Os símbolos de chaves são usados para representar as variáveis do exercício, ou seja, depois se coloca .format e dentro dos parenteses estarão os valores digitados e a soma dos mesmos.

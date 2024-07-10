@@ -9,7 +9,6 @@ num7 = num*7
 num8 = num*8
 num9 = num*9
 num10 = num*10
-print("=*10")
 print("  {} X 1 ,=  {} ".format(num,num1))
 print("  {} X 2 ,=  {} ".format(num,num2))
 print(" {} X 3 ,=  {} ".format(num,num3))
