@@ -1,4 +1,4 @@
-let idade = 74
+let idade = 59
 if (idade <= 16) {
     console.log("Não Vota")
 } else if (idade >= 17 &&  idade < 70  ) {
