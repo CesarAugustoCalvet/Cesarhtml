@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulários para teste</title>
+    <link rel="stylesheet" href="css_formulario.css">
+</head>
+<body>
+    <h2> Testando Estilos em Formulários</h2>
+
+    <form action="cadastro_teste.php" method="get">
+     <fieldset>
+      <legend> 
+        Dados Básicos para Cadastro
+      </legend>
+      <div>
+      
+        <label for="inome"> Nome: </label>
+        <input type="text" name="nome" id="inome" placeholder="Digite o seu nome">
+       
+        
+            <label for="itel"> Telefone: </label> 
+            <input type="tel" name="telefone" id="itel" placeholder="Digite seu Telefone">
+             
+        
+        
+        
+            <label for="iemail"> Email: </label>
+            <input type="email" name="email" id="iemail" placeholder="Digite seu email">
+         
+
+      </div>
+
+
+     </fieldset> 
+     <fieldset>
+     <legend> Comentários</legend>
+     <div>
+        <label for="icomentarios"> Mensagem: </label> <br> <br>
+        <textarea name="comentarios" id="icomentarios" >  </textarea>
+         </div>
+    
+     </fieldset>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+fieldset{
+    letter-spacing: 0.1em;
+    font-family: cursive; 
+    padding: 5px;
+    border: 2px solid green;
+    margin: 10px
+
+
+}
+legend{
+    font-weight: bold;
+    cursor:pointer
+}
+label{ margin: 20px; 
+
+}
+textarea{
+     width: 400px; 
+    height: 100px;
+    
+}
+input[type="text"] {
+    border:  2px solid red ;
+}
+input[type="email"]{
+    border: 2px solid blue;
+}
+input[type="tel"]{
+    border: 2px solid yellow;
+}
