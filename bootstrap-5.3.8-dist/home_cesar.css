@@ -11,6 +11,7 @@ h1{
 h1:hover{
     color: brown ;
 }
+p{text-align: center;}
 
 footer {
 border-radius: 50px; box-shadow: 2px 2px 5px grey;
