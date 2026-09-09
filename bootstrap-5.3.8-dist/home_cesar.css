@@ -1,5 +1,5 @@
 @charset "Utf-8";
-header{border-radius: 50px; box-shadow: 2px 2px 15px grey;}
+header{border-radius: 50px; box-shadow: 2px 2px 15px grey; margin-bottom: 15px;}
 img{ max-width: 150px;}
 a{ font-weight: bold; text-decoration: none;}
 a:hover{
@@ -9,11 +9,28 @@ h1{
     font-weight: bolder; font-size: 32px; text-align: center;
 }
 h1:hover{
-    color: brown ;
+    color: brown ; 
 }
 p{text-align: center;}
-
+p:hover{color: brown;}
+#carousel1{
+    margin: 10px;
+}
+.carousel-control-prev-icon {
+    filter: invert();
+}
+.carousel-control-next-icon {
+    filter: invert();
+}
+h2{text-align: center; margin-bottom: 15px;}
+h2:hover{color: brown;}
+#mapa{text-align: center; margin-bottom: 15px;}
+iframe{box-shadow: 2px 2px 5px; width: 500px;}
 footer {
 border-radius: 50px; box-shadow: 2px 2px 5px grey;
 text-align: center;
+background-color:#B1825E
+ ; margin-top: 10px;
+ padding-top: 10px;
 }
+#caf{padding-bottom: 15px;}
